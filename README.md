@@ -3,24 +3,24 @@
 Project Overview
 This project demonstrates setting up a Continuous Integration/Continuous Deployment (CI/CD) pipeline for a simple web application. The pipeline automates building, testing, and deploying the app using Jenkins, GitHub, and Docker.
 
-Technologies Used
+**Technologies Used**
 Jenkins
 Git & GitHub
 Docker & NGINX
 EC2 Linux (Jenkins & Docker setup)
 
-Key Achievements:
+**Key Achievements:**
 Automated the software development lifecycle.
 Improved deployment efficiency and reduced manual errors.
 Deployed a web app using Docker with NGINX as a web server.
 
-Prerequisites
+**Prerequisites**
 Development Environment:
 Git, Jenkins, Docker installed on EC2 Linux instance.
 Open ports 8080 and 8081 in your security group settings.
 GitHub Repository: Jenkins-CI-CD-Pipeline-for-a-Web-Application
 
-Setup Instructions
+**Setup Instructions**
 Step 1: Clone the Repository
 git clone https://github.com/Sandhyagito/Jenkins-CI-CD-Pipeline-for-a-Web-Application.git
 
