@@ -43,9 +43,16 @@ Use the following pipeline script:
 ![image](https://github.com/user-attachments/assets/4ac400ec-0d7d-4852-b42b-8b8101ced882)
 
 
-
 Step 5: Access the Deployed Web Application
-Access the application via http://<your-ec2-public-ip>:8081
+
+Open Port 8081 in Security Groups:
+
+•	Go to your EC2 instance’s security settings in the AWS console.
+•	Add an inbound rule to allow traffic on port 8081 from anywhere (0.0.0.0/0).
+
+Access the Web Application:
+•	Open a browser and go to http://<your-ec2-public-ip>:8081. You should see the "Hello, Jenkins!" page.
+
 
 ![Picture1](https://github.com/user-attachments/assets/f8efb0e9-2fce-4d30-b986-e7a90f061824)
 
