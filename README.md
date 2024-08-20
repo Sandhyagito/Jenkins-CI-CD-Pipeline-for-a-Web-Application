@@ -40,35 +40,8 @@ Create a new pipeline project.
 Use the following pipeline script:
 
 
-pipeline {
-    agent any
-    stages {
-        stage('Clone Repository') {
-            steps {
-                git branch: 'main', url: 'https://github.com/Sandhyagito/Jenkins-CI-CD-Pipeline-for-a-Web-Application.git'
-            }
-        }
-        stage('Build') {
-            steps {
-                echo 'Building...'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing...'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                script {
-                    sh '''
-                        docker run --name Sandhya-Webserver -d -p 8081:80 -v "$(pwd):/usr/share/nginx/html" nginx
-                    '''
-                }
-            }
-        }
-    }
-}
+![image](https://github.com/user-attachments/assets/4ac400ec-0d7d-4852-b42b-8b8101ced882)
+
 
 
 Step 5: Access the Deployed Web Application
