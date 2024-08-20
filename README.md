@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/3ad6d3ac-d6ba-48b8-b849-083167f9c9db)
+
+
 **Streamlined CI/CD Pipeline for Web Development using Jenkins, Git, and Docker**
 
 Project Overview
