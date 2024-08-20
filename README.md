@@ -39,6 +39,7 @@ In Jenkins:
 Create a new pipeline project.
 Use the following pipeline script:
 
+
 pipeline {
     agent any
     stages {
@@ -68,6 +69,8 @@ pipeline {
         }
     }
 }
+
+
 Step 5: Access the Deployed Web Application
 Access the application via http://<your-ec2-public-ip>:8081
 
